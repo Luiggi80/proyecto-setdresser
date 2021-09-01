@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import '_variables';
+
 /*  Reseteo CSS */
 * {
     margin: 0;
@@ -65,7 +67,7 @@ body {
 .navbar {
     margin: 0 auto;
     padding: 1px 10vw 1px 10vw;
-    background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
+    background: $color_theme;
 
     &__brand {
         font-weight: 700;
@@ -106,7 +108,7 @@ body {
 
 .titulos_secciones {
     background-color: #999;
-    background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
+    background: $color_theme;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -178,7 +180,7 @@ body {
 
     &__img {
         /*width: 33em; */
-        background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
+        background: $color_theme;
         box-shadow: 2px 2px 5px #999;
 
     }
@@ -202,9 +204,6 @@ body {
         font-size: 1.5rem;
         text-align: center;
         text-shadow: 1px 1px 2px rgb(252, 156, 246);
-        /* rgba(114, 251, 227, 0.863183) 0%,
-     rgba(252, 156, 245, 0.43181) 33%, 
-     rgba(105, 105, 105, 0.466) */
     }
 
     &__subtitulo {
@@ -390,7 +389,7 @@ body {
 
     &__botoncolor {
         background-color: white;
-        background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
+        background: $color_theme;
         color: blue;
     }
 
