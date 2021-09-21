@@ -21,7 +21,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100;1,200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100;1,200&display=swap"
+    rel="stylesheet">
 
   <meta name="keywords" content="ambientacion, produccion, series, peliculas, cine, decorados, daniela carranza, fotos">
   <meta name="description" content="Galeria de Imagenes de los trabajos realizados a lo largo de mas de 15 años">
@@ -30,84 +31,164 @@
 </head>
 
 <body>
-    <!-- Header V20210824 #########################################################################-->
-    <header>
-      <div class="navbar__container">
+  <!-- Header V20210824 #########################################################################-->
+  <header>
+    <div class="navbar__container">
 
-          <!-- Despliegue de Menu de navegacion - navbar -->
-          <div>
-              <nav class="navbar navbar-expand-lg navbar-light bg-light navbar__color">
-                  <div class="container-fluid">
+      <!-- Despliegue de Menu de navegacion - navbar -->
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar__color">
+          <div class="container-fluid">
 
-                      <a class="navbar__brand" href="index.html">
-                          <img src="./images/logos/logo_dc.svg" alt="logo_dc" class="navbar__logo">
-                          <!-- <span class="navbar-show marker-typography">Dani Set Dresser</span> -->
-                      </a>
+            <a class="navbar__brand" href="index.html">
+              <img src="./images/logos/logo_dc.svg" alt="logo_dc" class="navbar__logo">
+              <!-- <span class="navbar-show marker-typography">Dani Set Dresser</span> -->
+            </a>
 
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                          aria-expanded="false" aria-label="Toggle navigation">
-                          <!-- <span class="navbar-toggler-icon">M</span> -->
-                          <span class="marker-typography">Menu</span>
-                      </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- <span class="navbar-toggler-icon">M</span> -->
+              <span class="marker-typography">Menu</span>
+            </button>
 
-                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                          <div class="navbar-nav marker-typography">
-                              <a class="navbar__titulos nav-link" href="index.html"><span>Inicio</span></a>
-                              <a class="navbar__titulos nav-link" href="trayectoria.html">Trayectoria</a>
-                              <a class="navbar__titulos nav-link active" href="galeria.html">Galería</a>
-                              <a class="navbar__titulos nav-link" href="bio.html">Biografía</a>
-                              <a class="navbar__titulos nav-link" href="contacto.html">Contacto</a>
-                          </div>
-                      </div>
-                  </div>
-              </nav>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav marker-typography">
+                <a class="navbar__titulos nav-link" href="index.html"><span>Inicio</span></a>
+                <a class="navbar__titulos nav-link" href="trayectoria.html">Trayectoria</a>
+                <a class="navbar__titulos nav-link active" href="galeria.html">Galería</a>
+                <a class="navbar__titulos nav-link" href="bio.html">Biografía</a>
+                <a class="navbar__titulos nav-link" href="contacto.html">Contacto</a>
+              </div>
+            </div>
           </div>
+        </nav>
       </div>
+    </div>
   </header>
 
   <main class="main_media">
 
     <div class="titulos_secciones">
-      <h1>SETs - Locaciones - Producciones</h1>
-  </div>
-
-    <div class="container">
-      <div class="row  mx-auto">
-        <div class="card col-6 col-md-4">
-          <img class="img-fluid img-thumbnail portadafotos__img " src="./images/galeria/img_portada_1.webp" alt="">
-        </div>
-        <div class="card col-6 col-md-4">
-          <img class="img-fluid img-thumbnail" src="./images/galeria/img_portada_2.webp" alt="">
-        </div>
-        <div class="card col-6 col-md-4">
-          <img class="img-index img-fluid img-thumbnail" src="./images/galeria/img_portada_3.webp" alt="">
-        </div>
-
-        <div class="card col-6 col-md-4">
-          <img class="img-index img-fluid img-thumbnail" src="" alt="">
-        </div>
-        <div class="card col-6 col-md-4">
-          <img class="img-index img-fluid img-thumbnail" src="" alt="">
-        </div>
-        <div class="card col-6 col-md-4">
-          <img class="img-index img-fluid img-thumbnail" src="" alt="">
-        </div>
-
-        <div class="card col-6 col-md-4">
-          <img class="img-index img-fluid img-thumbnail" src="" alt="">
-        </div>
-        <div class="card col-6 col-md-4">
-          <img class="img-index img-fluid img-thumbnail" src="" alt="">
-        </div>
-        <div class="card col-6 col-md-4">
-          <img class="img-index img-fluid img-thumbnail" src="" alt="">
-        </div>
-
-
-      </div>
+      <h1>Galería de Imágenes</h1>
     </div>
 
+    <div class="galeria__container">
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Destacadas
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+              <div class="row  mx-auto">
+                <div class="card col-6 col-md-4">
+                  <img class="card-img img-thumbnail" src="./images/galeria/img_galeria_01.webp" alt="">
+                  <div class="card-img-overlay galeria__text">
+                    <h5 class="card-title">Probando</h5>
+                  </div>
+                </div>
+
+                <div class="card col-6 col-md-4">
+                  <img class="img-fluid img-thumbnail" src="./images/galeria/img_galeria_02.webp" alt="">
+                  <div class="card-img-overlay galeria__text">
+                    <h5 class="">Probando</h5>
+                  </div>
+                </div>
+                <div class="card col-6 col-md-4">
+                  <img class="img-fluid img-thumbnail galeria__img galeria__img--top"
+                    src="./images/galeria/img_galeria_03.webp" alt="">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Interiores
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="accordion-body">
+
+                <div class="row  mx-auto">
+                  <div class="card col-6 col-md-4">
+                    <img class="card-img img-thumbnail" src="./images/galeria/img_galeria_01.webp" alt="">
+                    <div class="card-img-overlay galeria__text">
+                      <h5 class="card-title">Probando</h5>
+                    </div>
+                  </div>
+  
+                  <div class="card col-6 col-md-4">
+                    <img class="img-fluid img-thumbnail" src="./images/galeria/img_galeria_02.webp" alt="">
+                    <div class="card-img-overlay galeria__text">
+                      <h5 class="">Probando</h5>
+                    </div>
+                  </div>
+                  <div class="card col-6 col-md-4">
+                    <img class="img-fluid img-thumbnail galeria__img galeria__img--top"
+                      src="./images/galeria/img_galeria_03.webp" alt="">
+                  </div>
+                </div>
+  
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Exteriores
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+              <div class="accordion-body">
+
+                <div class="row  mx-auto">
+                  <div class="card col-6 col-md-4">
+                    <img class="card-img img-thumbnail" src="./images/galeria/img_galeria_01.webp" alt="">
+                    <div class="card-img-overlay galeria__text">
+                      <h5 class="card-title">Probando</h5>
+                    </div>
+                  </div>
+  
+                  <div class="card col-6 col-md-4">
+                    <img class="img-fluid img-thumbnail" src="./images/galeria/img_galeria_02.webp" alt="">
+                    <div class="card-img-overlay galeria__text">
+                      <h5 class="">Probando</h5>
+                    </div>
+                  </div>
+                  <div class="card col-6 col-md-4">
+                    <img class="img-fluid img-thumbnail galeria__img galeria__img--top"
+                      src="./images/galeria/img_galeria_03.webp" alt="">
+                  </div>
+                </div>
+  
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
   </main>
 
 

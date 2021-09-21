@@ -228,6 +228,11 @@ body {
     text-shadow: 2px 2px 5px #030303;
 }
 
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
 /* SECCION TRAYECTORIA ###################################################### */
 
 .grid {
@@ -341,26 +346,34 @@ body {
 
 
 /* SECCION GALERIA ############################################################# */
-.carretel-container {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    overflow: auto;
+
+.galeria {
+    &__container {
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    &__accordion {
+        background-color: $color_theme;
+    }
+
+    &__text {
+        background-color: rgba(0, 0, 0, 0.534);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 1.5s ease-in-out;
+    }
+
+    &__text:hover {
+        opacity: 1;
+    }
 }
 
-.carousel-item img {
-    height: 400px;
-    object-fit: cover;
-}
 
-.img-index {
-    width: 100%;
-    background-color: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
-    // background-color: black;
-    box-shadow: 2px 2px 5px #999;
-}
 
 /* SECCION CONTACTO ############################################################# */
 .contacto {
