@@ -234,6 +234,26 @@ body {
 }
 
 /* SECCION TRAYECTORIA ###################################################### */
+.trayectoria {
+    &__container {
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    &__filas {
+        opacity: 1;
+        transition: opacity;
+    }
+
+    &__filas:hover {
+        background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        opacity: 1;
+    }
+
+}
+
 
 .grid {
     &__container {
@@ -258,7 +278,6 @@ body {
         height: 100px;
         padding-top: 5px;
         padding-bottom: 5px;
-        box-shadow: 2px 2px 5px #999;
     }
 
     &__programa {
@@ -424,14 +443,6 @@ body {
     }
 }
 
-// @media (min-width: 600px) {
-//     .navbar-show {
-//         display: none;
-//     }
-// }
-
-
-
 /* No se si es correcto para evitar que se superponga el navegador fixed con el main */
 
 @media (max-width: 600px) {
@@ -445,11 +456,3 @@ body {
         margin-top: 5.4rem;
     }
 }
-
-// @media (max-width: 768px) {
-//     section>div {
-//         grid-template-areas: "img1""img2""img3""img4""img5""img6";
-//         grid-template-columns: repeat(1, 1fr);
-//         grid-template-rows: repeat(6, 200px);
-//     }
-// }

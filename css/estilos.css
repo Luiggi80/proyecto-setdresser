@@ -206,6 +206,23 @@ body {
 }
 
 /* SECCION TRAYECTORIA ###################################################### */
+.trayectoria__container {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.trayectoria__filas {
+  opacity: 1;
+  transition: opacity;
+}
+
+.trayectoria__filas:hover {
+  background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  opacity: 1;
+}
+
 .grid__container {
   width: 80%;
   margin: 1vh auto 1vh auto;
@@ -228,7 +245,6 @@ body {
   height: 100px;
   padding-top: 5px;
   padding-bottom: 5px;
-  box-shadow: 2px 2px 5px #999;
 }
 
 .grid__programa {
