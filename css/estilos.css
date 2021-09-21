@@ -223,19 +223,6 @@ body {
   opacity: 1;
 }
 
-.grid__container {
-  width: 80%;
-  margin: 1vh auto 1vh auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  display: grid;
-  grid-template-columns: 3fr 4fr 3fr repeat(3, 2fr);
-  justify-items: center;
-  align-items: center;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-}
-
 .grid__img {
   display: flex;
   justify-content: center;
