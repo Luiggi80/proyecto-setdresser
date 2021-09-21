@@ -312,23 +312,29 @@ body {
 
 /* SECCION GALERIA ############################################################# */
 .galeria__container {
-  width: 80%;
+  width: 95%;
   margin: auto;
   margin-top: 10px;
 }
 
 .galeria__accordion {
-  background-color: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
+  background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
 }
 
 .galeria__text {
-  background-color: rgba(0, 0, 0, 0.534);
-  color: white;
+  background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   opacity: 0;
   transition: opacity 1.5s ease-in-out;
+}
+
+.galeria__title {
+  width: 60%;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 .galeria__text:hover {

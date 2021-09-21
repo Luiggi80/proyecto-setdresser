@@ -349,24 +349,31 @@ body {
 
 .galeria {
     &__container {
-        width: 80%;
+        width: 95%;
         margin: auto;
         margin-top: 10px;
     }
 
     &__accordion {
-        background-color: $color_theme;
+        background: $color_theme;
     }
 
     &__text {
-        background-color: rgba(0, 0, 0, 0.534);
-        color: white;
+        background: $color_theme;
+        color: rgb(0, 0, 0);
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         opacity: 0;
         transition: opacity 1.5s ease-in-out;
     }
+
+    &__title {
+        width: 60%;
+        text-shadow: 2px 2px 5px #000000;
+    }
+
 
     &__text:hover {
         opacity: 1;
