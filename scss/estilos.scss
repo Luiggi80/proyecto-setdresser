@@ -158,6 +158,10 @@ body {
     }
 }
 
+.portadacards {
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
 
 .portadafotos {
     &__title {
@@ -250,6 +254,7 @@ body {
         background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         opacity: 1;
+        font-weight: bolder;
     }
 
 }
