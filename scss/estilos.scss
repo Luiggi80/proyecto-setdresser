@@ -160,7 +160,7 @@ body {
 
 .portadacards {
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
 }
 
 .portadafotos {
@@ -248,13 +248,26 @@ body {
     &__filas {
         opacity: 1;
         transition: opacity;
+        border-bottom: 1px solid rgb(230, 230, 230);
     }
 
     &__filas:hover {
         background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
+        border-bottom: 0px;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         opacity: 1;
         font-weight: bolder;
+    }
+
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width: 100px;
+        height: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
 }
@@ -301,6 +314,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         font-style: normal;
     }
 
@@ -309,6 +323,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         font-style: normal;
     }
 
