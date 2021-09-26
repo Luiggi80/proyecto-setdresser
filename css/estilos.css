@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*  Reseteo CSS */
 * {
   margin: 0;
@@ -22,6 +21,14 @@ h1 {
 h2 {
   color: #1b1a1a;
   font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+
+h3 {
   font-weight: normal;
   font-style: italic;
   text-align: center;
@@ -175,22 +182,26 @@ body {
   transform: scale(1.01);
 }
 
+.carretel__fondo {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .carretel__titulo {
   color: #72fbe2;
   font-family: 'Permanent Marker', cursive;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
-  text-shadow: 1px 1px 2px #fc9cf6;
+  text-shadow: 1px 1px 2px black, 0 0 1em #fc9cf6, 0 0 0.2em #fc9cf6;
 }
 
 .carretel__subtitulo {
-  color: #fc9cf6;
+  color: #ff47f3;
   font-family: 'Montserrat', cursive;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
-  text-shadow: 2px 2px 3px rgba(114, 251, 226, 0.863);
+  text-shadow: 1px 1px 2px black, 0 0 1em #72fbe2, 0 0 0.2em #72fbe2;
 }
 
 /* Modificacion de clase predefinida */
@@ -228,68 +239,51 @@ body {
   border-bottom: 0px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   opacity: 1;
+  font-size: 110%;
   font-weight: bolder;
 }
 
-.trayectoria__img {
+.trayectoria__itemcontainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
-.grid__img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.trayectoria__img {
   overflow: hidden;
   width: 100px;
   height: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
-.grid__programa {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  font-weight: 900;
+.trayectoria__premio {
+  overflow: hidden;
+  height: 70px;
+}
+
+.trayectoria__programa {
+  font-weight: 700;
   font-size: 1rem;
-  padding-right: 2px;
 }
 
-.grid__productora {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+.trayectoria__productora {
+  font-style: italic;
+  font-size: 0.9em;
 }
 
-.grid__rol {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.trayectoria__rol {
   font-style: normal;
+  font-size: 0.9em;
 }
 
-.grid__fecha {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-style: normal;
+.trayectoria__fecha {
+  font-size: 0.9em;
 }
 
-.grid__link {
+.trayectoria__link {
   width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-style: normal;
 }
 
 /* SECCION BIO ############################################################# */
@@ -338,10 +332,6 @@ body {
   margin-top: 10px;
 }
 
-.galeria__accordion {
-  background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
-}
-
 .galeria__text {
   background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
   color: black;
@@ -350,7 +340,7 @@ body {
   align-items: center;
   text-align: center;
   opacity: 0;
-  transition: opacity 1.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .galeria__title {

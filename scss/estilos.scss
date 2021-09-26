@@ -33,6 +33,14 @@ h2 {
     font-size: 1.5rem;
 }
 
+h3 {
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
 p {
     color: #070707;
     text-align: justify;
@@ -201,22 +209,26 @@ body {
 
 
 .carretel {
+    &__fondo {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
     &__titulo {
         color: rgb(114, 251, 226);
         font-family: 'Permanent Marker', cursive;
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-align: center;
-        text-shadow: 1px 1px 2px rgb(252, 156, 246);
+        text-shadow: 1px 1px 2px black, 0 0 1em #fc9cf6, 0 0 0.2em #fc9cf6;
     }
 
     &__subtitulo {
-        color: rgb(252, 156, 246);
+        color: #ff47f3;
         font-family: 'Montserrat', cursive;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
-        text-shadow: 2px 2px 3px rgba(114, 251, 226, 0.863);
+        text-shadow: 1px 1px 2px black, 0 0 1em #72fbe2, 0 0 0.2em #72fbe2;
     }
 }
 
@@ -256,77 +268,52 @@ body {
         border-bottom: 0px;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         opacity: 1;
+        font-size: 110%;
         font-weight: bolder;
     }
 
-    &__img {
+    &__itemcontainer {
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
-        width: 100px;
-        height: 100px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        text-align: center;
+        padding-top: 4px;
+        padding-bottom: 4px;
     }
 
-}
-
-
-.grid {
     &__img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         overflow: hidden;
         width: 100px;
         height: 100px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+    }
+
+    &__premio {
+        overflow: hidden;
+        height: 70px;
     }
 
     &__programa {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        font-weight: 900;
+        font-weight: 700;
         font-size: 1rem;
-        padding-right: 2px;
     }
 
     &__productora {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+        font-style: italic;
+        font-size: 0.9em;
     }
 
     &__rol {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
         font-style: normal;
+        font-size: 0.9em;
     }
 
     &__fecha {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-style: normal;
+        font-size: 0.9em;
     }
 
     &__link {
         width: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-style: normal;
     }
-
 }
 
 
@@ -380,10 +367,6 @@ body {
         margin-top: 10px;
     }
 
-    &__accordion {
-        background: $color_theme;
-    }
-
     &__text {
         background: $color_theme;
         color: rgb(0, 0, 0);
@@ -392,7 +375,7 @@ body {
         align-items: center;
         text-align: center;
         opacity: 0;
-        transition: opacity 1.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out;
     }
 
     &__title {
