@@ -84,7 +84,6 @@ body {
 }
 
 .navbar__titulos {
-  /* margin-left: 5vw; */
   padding-left: 30px;
   font-weight: 600;
   font-size: 1.2rem;
@@ -169,7 +168,6 @@ body {
 }
 
 .portadafotos__img {
-  /*width: 33em; */
   background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
   box-shadow: 2px 2px 5px #999;
 }
@@ -179,7 +177,7 @@ body {
 }
 
 .portadafotos__animacion:hover {
-  transform: scale(1.01);
+  transform: scale(1.1, 1.1);
 }
 
 .carretel__fondo {
@@ -217,7 +215,7 @@ body {
 }
 
 .carousel-item img {
-  height: 400px;
+  height: 450px;
   object-fit: cover;
 }
 
@@ -291,38 +289,36 @@ body {
   width: 80%;
   margin: auto;
   margin-top: 20px;
-  justify-content: space-evenly;
+}
+
+.biocontainer__parrafo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
   align-items: center;
 }
 
 .biocontainer__foto {
-  width: 400px;
-  height: 400px;
-}
-
-.biocontainer__parrafo {
-  text-overflow: ellipsis;
-  margin: auto;
-  font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .biocontainer__frase {
-  color: black;
-  width: 60%;
+  width: 80%;
   margin: auto;
-  font-family: 'Zen Loop', cursive;
-  font-size: 2em;
+  margin-top: 20px;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.5em;
   font-style: italic;
-  font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
 }
 
 .biocontainer__firma {
-  color: black;
   width: 80%;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
   font-family: 'Satisfy', cursive;
   font-size: 2em;
   font-style: italic;
@@ -351,7 +347,7 @@ body {
 
 .galeria__title {
   width: 60%;
-  text-shadow: 2px 2px 5px #000000;
+  text-shadow: 1px 1px 2px white, 0 0 1em #72fbe2, 0 0 0.2em #72fbe2;
 }
 
 .galeria__text:hover {
