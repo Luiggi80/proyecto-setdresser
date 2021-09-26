@@ -265,7 +265,7 @@ body {
 
 .trayectoria__programa {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .trayectoria__productora {
@@ -291,14 +291,19 @@ body {
   width: 80%;
   margin: auto;
   margin-top: 20px;
-  /* display: flex;
-    flex-direction: row; */
   justify-content: space-evenly;
   align-items: center;
 }
 
 .biocontainer__foto {
-  padding: 20px;
+  width: 400px;
+  height: 400px;
+}
+
+.biocontainer__parrafo {
+  text-overflow: ellipsis;
+  margin: auto;
+  font-size: 1em;
 }
 
 .biocontainer__frase {
@@ -306,7 +311,7 @@ body {
   width: 60%;
   margin: auto;
   font-family: 'Zen Loop', cursive;
-  font-size: 1.5rem;
+  font-size: 2em;
   font-style: italic;
   font-weight: bold;
   letter-spacing: 1px;
@@ -317,8 +322,9 @@ body {
   color: black;
   width: 80%;
   margin: auto;
+  margin-top: 10px;
   font-family: 'Satisfy', cursive;
-  font-size: 2rem;
+  font-size: 2em;
   font-style: italic;
   font-weight: normal;
   letter-spacing: 1px;
@@ -355,11 +361,11 @@ body {
 /* SECCION CONTACTO ############################################################# */
 .contacto__container {
   background-color: #e6e6e6;
-  width: 80%;
+  width: 90%;
   margin: auto;
-  margin-top: 30px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .contacto__formulario {
@@ -377,7 +383,6 @@ body {
 }
 
 .contacto__botoncolor {
-  background-color: white;
   background: linear-gradient(90deg, rgba(114, 251, 227, 0.863183) 0%, rgba(252, 156, 245, 0.43181) 33%, rgba(105, 105, 105, 0.466) 100%);
   color: blue;
 }

@@ -294,7 +294,7 @@ body {
 
     &__programa {
         font-weight: 700;
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     &__productora {
@@ -322,13 +322,18 @@ body {
     width: 80%;
     margin: auto;
     margin-top: 20px;
-    /* display: flex;
-    flex-direction: row; */
     justify-content: space-evenly;
     align-items: center;
 
     &__foto {
-        padding: 20px;
+        width: 400px;
+        height: 400px;
+    }
+
+    &__parrafo {
+        text-overflow: ellipsis;
+        margin: auto;
+        font-size: 1em;
     }
 
     &__frase {
@@ -336,7 +341,7 @@ body {
         width: 60%;
         margin: auto;
         font-family: 'Zen Loop', cursive;
-        font-size: 1.5rem;
+        font-size: 2em;
         font-style: italic;
         font-weight: bold;
         letter-spacing: 1px;
@@ -347,8 +352,9 @@ body {
         color: black;
         width: 80%;
         margin: auto;
+        margin-top: 10px;
         font-family: 'Satisfy', cursive;
-        font-size: 2rem;
+        font-size: 2em;
         font-style: italic;
         font-weight: normal;
         letter-spacing: 1px;
@@ -395,11 +401,11 @@ body {
 .contacto {
     &__container {
         background-color: rgb(230, 230, 230);
-        width: 80%;
+        width: 90%;
         margin: auto;
-        margin-top: 30px;
-        padding-top: 10px;
-        padding-bottom: 20px;
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     &__formulario {
@@ -417,7 +423,6 @@ body {
     }
 
     &__botoncolor {
-        background-color: white;
         background: $color_theme;
         color: blue;
     }
